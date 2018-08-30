@@ -19,6 +19,7 @@
 #include "options/spi_flash.h"
 #include "options/data_flash.h"
 #include "options/internal_flash.h"
+#include "options/psoc6.h"
 #include "options/fat_filesystem.h"
 #include "options/little_filesystem.h"
 
