@@ -19,7 +19,7 @@
 #include "psoc6.h"
 
 Psoc6BlockDevice* _storage_selector_PSOC6() {
-    static Psoc6BlockDevice bd();
+    static Psoc6BlockDevice bd;
     return &bd;
 }
 
